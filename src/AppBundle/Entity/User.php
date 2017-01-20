@@ -41,4 +41,11 @@ class User extends BaseUser
     {
         return $this->id;
     }
+
+    public function setGoogleAccessToken($token)
+    {
+        $this->googleAccessToken = $token;
+
+        return $this;
+    }
 }
