@@ -22,6 +22,15 @@ class User extends BaseUser
      */
     protected $id;
 
+    /**
+     * @ORM\Column(name="google_id", type="string", length=255, nullable=true)
+     */
+    protected $googleId;
+
+    /**
+     * @var string
+     */
+    protected $googleAccessToken;
 
     /**
      * Get id

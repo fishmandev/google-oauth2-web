@@ -73,3 +73,12 @@ fos_user:
     db_driver: orm
     firewall_name: main
     user_class: AppBundle\Entity\User
+
+hwi_oauth:
+    firewall_names: [secured_area]
+    resource_owners:
+        google:
+            type:                google
+            client_id:           336566135964-ebopng58lcqgdkk7bghhnutufseadib6.apps.googleusercontent.com
+            client_secret:       sE5RoaeUryEyg-uaCzsTjuOv
+            scope:               "email profile"
