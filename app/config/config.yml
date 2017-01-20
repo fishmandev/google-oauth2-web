@@ -79,6 +79,6 @@ hwi_oauth:
     resource_owners:
         google:
             type:                google
-            client_id:           336566135964-ebopng58lcqgdkk7bghhnutufseadib6.apps.googleusercontent.com
-            client_secret:       sE5RoaeUryEyg-uaCzsTjuOv
+            client_id:           "%google_client_id%"
+            client_secret:       "%google_client_secret%"
             scope:               "email profile"
